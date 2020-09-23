@@ -1,0 +1,52 @@
+<!Doctype html>
+<html>
+<head>
+<title>Assignment 1</title>
+</head>
+
+<body>
+	<h1>Assignment 1</h1>
+	<form action="login_servlet" method="GET">
+		<table>
+			<tr>
+				<td>User Name</td>
+				<td><input type="text" size="40" name="userName" required></td>
+			</tr>
+			<tr>
+				<td>Message</td>
+				<td><textarea name="userMessage" required></textarea></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" VALUE="Submit"></td>
+			</tr>
+		</table>
+	</form>
+	<form action="get_name" method='GET'>
+		<h1>Search by name</h1>
+		<table>
+			<tr>
+				<td>Search name:</td>
+				<td><input type="text" name="nameSearch" size="20" required></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Search"></td>
+			</tr>
+		</table>
+	</form>
+	<form action="get_date" method='GET'>
+		<h1>Search date</h1>
+		<table>
+			<tr>
+				<td>Search date:</td>
+				<td><input type="date" name="dateSearch" size="20" required></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Search"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
